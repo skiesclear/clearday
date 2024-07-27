@@ -1,5 +1,5 @@
 - name: 主页
-  link: /
+  link: 
 - name: Swift
   link: /menu/swift.html
 - name: UNIX
