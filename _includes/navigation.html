@@ -6,7 +6,8 @@
 <!--             <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
             {% for item in site.data.navigation %}
                 <a class="navbar-brand" href="{{ item.link | prepend: site.baseurl }}">
-                    {{ item.name }}
+<!--                     {{ item.name }} -->
+                    {{ item.link | prepend: site.baseurl }}
                 </a>
             {% endfor %}
         </div>
