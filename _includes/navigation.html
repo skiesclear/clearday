@@ -5,7 +5,7 @@
         <div class="navbar-header">
 <!--             <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
             {% for item in site.data.navigation %}
-                <a class="navbar-brand" href="{{ item.link | prepend: site.baseurl }}">
+                <a class="navbar-brand" href="{{ item.link | prepend: site.baseurl }}/?tag={{ item.name | url_encode }}">
                     {{ item.name }}
                 </a>
             {% endfor %}
