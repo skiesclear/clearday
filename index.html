@@ -5,7 +5,6 @@ description: "Boilerplate of Hux Blog"
 
 {% for post in paginator.posts %}
 <div class="post-preview">
-    <p>{{post.url | prepend: site.baseurl}}</p>
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}
