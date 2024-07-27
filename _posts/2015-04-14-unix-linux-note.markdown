@@ -7,7 +7,7 @@ author:     "Hux"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
     - OS
-    - Unix
+    - swift
     - Linux
 ---
 
