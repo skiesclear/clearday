@@ -3,12 +3,21 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-<!--             <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
-            {% for item in site.data.navigation %}
-                <a class="navbar-brand" href="{{ item.link | prepend: site.baseurl }}/?tag={{ item.name | url_encode }}">
-<!--                     {{ item.name }} -->{{ item.link | prepend: site.baseurl }}/?tag={{ item.name | url_encode }}
-                </a>
-            {% endfor %}
+            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            {% capture tags %}
+            {% comment %}
+                there must be no space between for and if otherwise this tricky sort won't work.
+                url_encode/decode is for escaping otherwise extra <a> will get generated 
+                but it will break sort...
+            {% endcomment %}
+            {% for tag in site.tags %}{% if tag[1].size > site.featured-condition-size %}
+                    <a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}" 
+                        href="{{ site.baseurl }}/archive/?tag={{ tag[0] | url_encode }}"
+                        title="{{ tag[0] }}"
+                        rel="{{ tag[1].size }}">{{ tag[0] }}</a>__SEPARATOR__
+            {% endif %}{% endfor %}
+            {% endcapture %}
+            {{ tags | split:'__SEPARATOR__' | sort }}    
         </div>
 
 
