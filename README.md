@@ -1,9 +1,3 @@
-# HuxBlog Boilerplate
-
-##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
-
-#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
-
-#### [View Live Hux Blog &rarr;](http://huangxuan.me)
-
-## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
+网站模板来自 [github：huxpro](https://github.com/Huxpro)
+模板在其 huxblog-boilerplate repository中
+本仓库将其进行修改，只留下了个人喜欢的部分
