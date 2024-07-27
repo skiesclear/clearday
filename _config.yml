@@ -6,7 +6,7 @@ email: huxpro@gmail.com
 description: ""
 keyword: ""
 url: "https://skiesclear.github.io/"              # your host, for absolute URL
-baseurl: "/clearday.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/clearday"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
