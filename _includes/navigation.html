@@ -21,7 +21,7 @@
                     </li>
                     {% for item in site.data.navigation %}
                         <li>
-                            <a href="{{ item.link | prepend: site.baseurl }}">{{ item.title }}</a>
+                            <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
                         </li>
                     {% endfor %}
                 </ul>
