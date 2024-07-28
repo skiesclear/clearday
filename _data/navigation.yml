@@ -1,22 +1,2 @@
-- name: 主页
-  link: 
-- name: Swift
-  link: /menu/swift/index.html
-# - name: UNIX
-#   link: /menu/unix.html
-# - name: C
-#   link: /menu/c.html
-# - name: Assembly
-#   link: /menu/assembly.html
-# - name: Go
-#   link: /menu/go.html
-# - name: Plan 9
-#   link: /menu/plan9.html
-# - name: Web
-#   link: /menu/web.html
-# - name: MCU
-#   link: /menu/mcu.html
-# - name: Research
-#   link: /menu/research.html
-# - name: Non-Tech
-#   link: /menu/non-tech.html
+- name: about
+  link: /about.html
