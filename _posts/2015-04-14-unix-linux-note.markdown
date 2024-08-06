@@ -9,6 +9,7 @@ tags:
     - OS
     - Swift
     - Linux
+    - Paper
 ---
 
 ### 问题解决模板：
