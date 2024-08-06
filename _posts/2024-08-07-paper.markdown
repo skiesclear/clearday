@@ -6,6 +6,7 @@ author:     "clearday"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Paper
+    - OS
 ---
 ### 问题解决模板：
 1、系统建模：将一个应用场景拆分成多个模型，尽可能使每个问题简单化。
