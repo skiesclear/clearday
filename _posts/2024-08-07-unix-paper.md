@@ -1,14 +1,11 @@
 ---
 layout:     post
-title:      "Example Post"
-subtitle:   "不适合人类阅读，非常水的自我笔记"
+title:      "Paper style"
+subtitle:   "一个测试"
 date:       2024-08-07
 author:     "Hux"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
-    - OS
-    - Swift
-    - Linux
     - Paper
 ---
 
