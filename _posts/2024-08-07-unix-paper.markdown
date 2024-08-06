@@ -2,7 +2,7 @@
 layout:     post
 title:      "Paper style"
 subtitle:   "一个测试"
-date:       2024-08-07
+date:       2024-08-06
 author:     "Hux"
 header-img: "img/post-bg-unix-linux.jpg"
 tags:
