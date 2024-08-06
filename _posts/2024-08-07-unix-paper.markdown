@@ -1,13 +1,17 @@
 ---
 layout:     post
-title:      "Paper format"
+title:      "Example Post"
+subtitle:   "不适合人类阅读，非常水的自我笔记"
 date:       2024-08-07
-author:     "clearday"
-header-img: "img/post-bg-2015.jpg"
+author:     "Hux"
+header-img: "img/post-bg-unix-linux.jpg"
 tags:
-    - Paper
     - OS
+    - Swift
+    - Linux
+    - Paper
 ---
+
 ### 问题解决模板：
 1、系统建模：将一个应用场景拆分成多个模型，尽可能使每个问题简单化。
 如虚拟天线矩阵无人机辅助中，将网络模型拆分为虚拟天线阵列模型，基于CB的传输模型，空中传播模型。还有能量消耗模型，其中分析也是竖向和横向推进分开分析的。
